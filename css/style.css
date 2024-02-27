@@ -1,0 +1,94 @@
+/*Documento de folha de estilos em cascata*/
+
+body{
+
+padding:10px 30px;
+
+}
+
+input { 
+
+margin-bottom: 5px;
+
+}
+
+#errou{
+
+	color:#F00;
+}
+
+#acertou{
+	
+	color:green;
+}
+
+
+.erradas{
+
+	color:#F00;
+}
+
+.certas{
+	
+	color:green;
+}
+
+h2{
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #666;
+	font-weight: bold;
+	margin-top:-2px;
+
+}
+
+#placar{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width:170px;
+    height:auto;
+    border: solid;
+    border-width: 7px;
+    border-color: #DEDEDE;
+    padding:10px;
+
+
+}
+
+#mensagem{
+
+
+	height:20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color:#F00;
+
+}
+.recomeco{ margin-bottom:20px; margin-left:100px;}
+
+
+.tabuleiro{
+	width:312px;
+	height:310px;
+	background-color:#333;
+	/*background-image:url(../img/hashtag2.png);*/
+	
+
+}
+
+.tabuleiro img{
+
+	width:100px;
+	height:100px;
+	float:left;
+	margin-left:2px;
+	margin-right:2px;
+	margin-bottom:5px;
+	cursor:pointer;
+	
+	
+}
+
+input{ cursor:pointer;}
